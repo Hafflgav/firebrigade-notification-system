@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "yes",
+          "value": "true"
+        }
+      ],
+      "label": "Has the fire service ended?",
+      "type": "radio",
+      "id": "Field_1tnq83b",
+      "key": "fireService_over",
+      "defaultValue": "true"
+    },
+    {
+      "values": [
+        {
+          "value": "THLrettung",
+          "label": "Medical Emergency"
+        },
+        {
+          "label": "Fire",
+          "value": "fire"
+        },
+        {
+          "label": "Vehicle crash",
+          "value": "THLpwk"
+        },
+        {
+          "label": "Thunderstorm",
+          "value": "THLunwetter"
+        }
+      ],
+      "label": "What type of emergency did happen?",
+      "type": "select",
+      "id": "Field_0vwxnia",
+      "key": "emergencyType",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "schemaVersion": 4,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "b72d66c"
+  },
+  "type": "default",
+  "id": "Form_2041ae3a-5539-4330-a304-3b88631dc57f",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "1.3"
+}
